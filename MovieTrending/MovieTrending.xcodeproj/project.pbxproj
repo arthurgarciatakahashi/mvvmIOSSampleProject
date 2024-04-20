@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A0EAB7E2BD47D5800011C0D /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0EAB7D2BD47D5800011C0D /* UIViewExtensions.swift */; };
+		1A0EAB832BD47EE800011C0D /* MovieTableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0EAB822BD47EE800011C0D /* MovieTableCellViewModel.swift */; };
 		1A54F1782BD3536D0021F75F /* MainViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F1772BD3536D0021F75F /* MainViewController+TableView.swift */; };
 		1A54F17D2BD354E90021F75F /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F17C2BD354E90021F75F /* MainViewModel.swift */; };
 		1A54F1822BD358F50021F75F /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A54F1812BD358F50021F75F /* NetworkConstant.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		1A0EAB7D2BD47D5800011C0D /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		1A0EAB822BD47EE800011C0D /* MovieTableCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableCellViewModel.swift; sourceTree = "<group>"; };
 		1A54F1772BD3536D0021F75F /* MainViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+TableView.swift"; sourceTree = "<group>"; };
 		1A54F17C2BD354E90021F75F /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		1A54F1812BD358F50021F75F /* NetworkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				1A54F17C2BD354E90021F75F /* MainViewModel.swift */,
+				1A0EAB822BD47EE800011C0D /* MovieTableCellViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A7A95072BD4693A009A9874 /* Observable.swift in Sources */,
+				1A0EAB832BD47EE800011C0D /* MovieTableCellViewModel.swift in Sources */,
 				1AAACCA22BD4774100B6B83D /* MainMovieCell.swift in Sources */,
 				1AED042E2BD2EB3B00B267C8 /* AppDelegate.swift in Sources */,
 				1A54F1872BD35A1D0021F75F /* APICaller.swift in Sources */,

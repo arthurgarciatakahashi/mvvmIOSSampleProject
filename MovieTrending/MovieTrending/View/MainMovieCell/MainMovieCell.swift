@@ -25,5 +25,9 @@ class MainMovieCell: UITableViewCell {
         movieImageView.round(5)
     }
     
-
+    func setupCell(viewModel: MovieTableCellViewModel) {
+        self.nameLabel.text = viewModel.title
+        self.dateLabel.text = viewModel.date
+        self.rateLabel.text = viewModel.rating
+    }
 }
