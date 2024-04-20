@@ -9,12 +9,23 @@ import UIKit
 
 class MainViewController: UIViewController {
 
-    // IBoutlets
-     
+    // IBoutlets:
     @IBOutlet weak var tableView: UITableView!
+    
+    //ViewModel
+    var viewModel: MainViewModel = MainViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "Primeira View"
+        configView()
     }
+    
+    func configView() {
+        self.title = "Primeira View"
+        
+        setupTableView()
+    }
+    
+
 }
