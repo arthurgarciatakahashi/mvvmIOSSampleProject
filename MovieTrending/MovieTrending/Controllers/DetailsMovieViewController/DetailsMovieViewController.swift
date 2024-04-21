@@ -20,7 +20,8 @@ class DetailsMovieViewController: UIViewController {
     
     init(viewModel: DetailsMovieViewModel) {
         self.viewModel = viewModel
-        super.init(nibName: "DetailsMovieViewModel", bundle: nil)
+        super.init(nibName: "DetailsMovieViewController", bundle: nil)
+        print("details init")
     }
     
     required init?(coder: NSCoder) {
@@ -38,6 +39,8 @@ class DetailsMovieViewController: UIViewController {
         titleLabel.text = viewModel.movieTitle
         descriptionLabel.text = viewModel.movieDescription
         imageView.sd_setImage(with: viewModel.movieImage)
+        print("details config")
+
     }
 
 

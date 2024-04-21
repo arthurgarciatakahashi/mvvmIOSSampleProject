@@ -30,7 +30,7 @@ class NetworkConstant {
     
     public var imageServerAddress: String {
         get {
-            return "https:://image.tmdb.org/t/p/w500/"
+            return "https://image.tmdb.org/t/p/w500/"
         }
     }
 }

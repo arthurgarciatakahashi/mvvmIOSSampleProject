@@ -69,6 +69,8 @@ class MainViewController: UIViewController {
         let detailsController = DetailsMovieViewController(viewModel: detailsViemModel)
         DispatchQueue.main.async {
             self.navigationController?.pushViewController(detailsController, animated: true)
+            print("onclick details id: \(movieId)")
+            
         }
     }
 }
